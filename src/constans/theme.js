@@ -7,6 +7,8 @@ export const theme = {
       accent: "#9e0202",
       pimaryText: "#7e7878",
       primary: "#bdb8b8",
+      green: "#00ff00",
+      red: "#FF0000",
     },
     space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
     fontSizes: {

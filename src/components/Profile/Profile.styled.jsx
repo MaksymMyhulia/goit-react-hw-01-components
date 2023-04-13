@@ -8,6 +8,7 @@ gap: 10px;
 margin: 50px auto;
 
 width: 300px;
+max-width: 100%;
 
 border-radius: ${({ theme }) => theme.space[3]}px;
 box-shadow: -1px -1px 4px #fff, 1px 1px 4px #2a2a2a;
