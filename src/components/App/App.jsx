@@ -4,7 +4,6 @@ import user from "components/Profile/user.json";
 import { Statistics } from "components/Statistics/Statistics"
 import data from "components/Statistics/data.json";
 
-import { GlobalStyle } from "./GlobalStyle";
 
 export const App = () => {
   return (
