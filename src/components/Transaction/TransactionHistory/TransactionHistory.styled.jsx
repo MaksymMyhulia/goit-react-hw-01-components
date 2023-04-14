@@ -29,8 +29,11 @@ text-align: center;
   }
   `;
 
-export const TRow = styled.tr`
-background-color: ${props => props.idx % 2 === 0 ? props.theme.colors.white : props.theme.colors.background};
+export const Tr = styled.tr`
+:hover {
+    background-color: #0066cc;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
 `;
 
 export const TableHead = styled.thead`
@@ -41,29 +44,4 @@ text-transform: uppercase;
 
 border-radius: ${({ theme }) => theme.space[3]}px;
 `;
-
-export const TableData = styled.td`
-padding: ${({ theme }) => theme.space[3]}px;
-border-right: 0.125rem solid #e9edff;
-color: ${props => props.theme.colors.text};
-text-align: center;
-
-:hover {
-    background-color: ${props => props.theme.colors.primary};
-    color: ${props => props.theme.colors.black};
-    text-shadow: 0.0625rem 0.0625rem 0.0625rem #fff;
-  }
-`;
-
-export const Type = styled(TableData)`
-text-transform: capitelize;
-`;
-
-export const Tr = styled.tr`
-:hover {
-    background-color: #0066cc;
-    box-shadow: 0 6px 6px -6px #0E1119;
-}
-`;
-
 

@@ -1,14 +1,14 @@
 import { Profile } from "components/Profile/Profile";
-import user from "components/Profile/user.json";
+import user from "data/user.json";
 
 import { Statistics } from "components/Statistics/Statistics"
-import data from "components/Statistics/data.json";
+import data from "data/data.json";
 
 import { FriendList } from "components/Friends/FriendsList/FriendsList";
-import friends from "components/Friends/friends.json";
+import friends from "data/friends.json";
 
-import { TransactionHistory } from "components/TransactionHistory/TransactionHistory";
-import transactions from "components/TransactionHistory/transactions.json";
+import { TransactionHistory } from "components/Transaction/TransactionHistory/TransactionHistory";
+import transactions from "data/transactions.json";
 
 
 

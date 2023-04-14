@@ -1,15 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { TableRow } from "../TableRow/TableRow";
+
 import { 
     Table,
     TableHead,
     TableBody,
     TableHeader,
-    TRow,
-    Type,
-    TableData,
     Tr,
-
  } from "./TransactionHistory.styled"
 
 export const TransactionHistory = ({ items }) => {
@@ -52,21 +50,4 @@ PropTypes.shape({
   currecy: PropTypes.string.isRequired,
 }).isRequired
 ).isRequired
-};
-
-const TableRow = ({ type, amount, currency, index }) => {
-    return (
-    <TRow idx ={index}>
-    <Type>{type}</Type>
-    <TableData>{amount}</TableData>
-    <TableData>{currency}</TableData>
-    </TRow>
-    )
-};
-
-TableRow.propTypes = {
-    index: PropTypes.number.isRequired,
-    type: PropTypes.string.isRequired,
-    amount: PropTypes.string.isRequired,
-    currency: PropTypes.string.isRequired,
 };
